@@ -1,0 +1,25 @@
+.btn-whatsapp {
+  background-color: #55acee; }
+
+.btn-facebook {
+  background-color: #3a5795; }
+
+.btn-instagram {
+  background-color: #c25e30; }
+
+.btn-skype {
+  background-color: red; }
+
+.redsocial, .redsocial--nueva {
+  border: 1px #f00;
+  background-color: #fdd; }
+
+.redsocial--nueva {
+  border-width: 3px; }
+
+.box {
+  width: auto;
+  height: auto;
+  font-size: 22px;
+  color: green;
+  background-color: brown; }

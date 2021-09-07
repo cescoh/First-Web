@@ -1,0 +1,56 @@
+* {
+    font-size: 12px;
+    text-align: center;
+}
+.body__fondo{
+    background-image:url(img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+}
+h1 {
+    font-size: 20px;
+}
+h2{
+    font-size: 11px;
+    font-family: 'Acme', sans-serif;
+    text-decoration: underline;
+}
+.header__imagenTop {
+    background-image: url(img/headersolo.jpg);
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.header__Fijado{
+    position: sticky;
+}
+.article__ecoImg {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+    }
+.article__ecoImg2 {
+    width: 100%;
+    height: auto;
+    }
+.header__fondoNav{
+    background:#a1cdfb;
+    background-image: linear-gradient(#a1cdfb, white);
+}
+.header__titulo{
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+.header__titulo2{
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    -webkit-text-stroke: 1px;
+}
+.aside__rSociales{
+    list-style-position:inside;
+    list-style-type:armenian;
+}
