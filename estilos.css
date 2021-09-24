@@ -14,8 +14,11 @@ h1 {
 }
 h2{
     font-size: 11px;
-    font-family: 'Acme', sans-serif;
-    text-decoration: underline;
+    font-family: 'Abril Fatface', cursive;
+}
+h4{
+    font-size: 11px;
+    font-family: 'Abril Fatface', cursive;
 }
 .header__imagenTop {
     background-image: url(img/headersolo.jpg);
@@ -23,9 +26,6 @@ h2{
     background-position:top;
     background-repeat: no-repeat;
     height: auto;
-}
-.header__Fijado{
-    position: sticky;
 }
 .article__ecoImg {
     width: 96%;
@@ -48,9 +48,58 @@ h2{
 .header__titulo2{
     font-family: 'Abril Fatface', cursive;
     color: black;
-    -webkit-text-stroke: 1px;
+    /*-webkit-text-stroke: 1px;*/
 }
 .aside__rSociales{
-    list-style-position:inside;
-    list-style-type:armenian;
+    list-style-position:outside;
+    list-style-type:none;
+}
+.aside__imgRs{
+    height: 30px;
+    width: 30px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    transition: all 1s;
+}
+.aside__imgRs:hover{
+    height: 35px;
+    width: 35px;
+}
+.aside__imgRs2{
+    height:35px;
+    width:35px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    transition: all 1s;
+}
+.aside__imgRs2:hover{
+    height: 40px;
+    width: 40px;
+}
+.footer__fondo{
+    background: rgb(218, 218, 218);
+    background-image: linear-gradient(rgb(218, 218, 218), white);
+    height: 100px;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+.my-float{
+	margin-top:16px;
 }

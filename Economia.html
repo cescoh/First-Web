@@ -27,6 +27,7 @@
     <meta name="keywords" content="Noticias, economia, latinoamerica, independiente" />
     <title>Economia</title>
 </head>
+
 <body class="body__fondo">
     <header>
         <div class="container-fluid header__imagenTop">
@@ -34,7 +35,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="display-5 text-center text-start header__titulo">Politicamente Incorrecto</h1>
-                        <p class="display-6 text-end header__titulo2">Economia</p>
+                        <p class="display-6 text-start header__titulo2">Economia</p>
                     </div>
                 </div>
             </div>
@@ -62,14 +63,45 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
+    <div class="container pt-3">
         <div class="row">
             <section class="col-md-8">
                 <article>
-                    <h2>Inversiones</h2>
+                    <h4>Inversiones</h4>
                     <div>
                         <img src="https://www.infobae.com/new-resizer/58oBLNRA4J5IRlrrfltXyi8K_-s=/768x512/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/W7AYXCZNVKLKQDABJK7FHIEW3M.jpg"
-                            width="960" height="640" class="article__ecoImg article__ecoImg2" alt="wallstreet"/>
+                            width="960" height="640" class="article__ecoImg article__ecoImg2" alt="wallstreet" />
+                    </div>
+                    <time datetime="10/07/2021">Publicado 18/07/2021</time>
+                    <p>
+                        La inquietud inversora frente a los mayores controles en el mercado
+                        de capitales doméstico y una sesión bursátil muy negativa en el
+                        exterior se combinaron para dejar un panorama adverso para los
+                        activos argentinos. Mientras que las acciones argentinas cayeron
+                        hasta 8% en Wall Street, la Bolsa porteña cedió más de 2% para
+                        cortar una serie de cinco alzas seguidas. Los bonos también
+                        terminaron en rojo, con un riesgo país otra vez cerca de los 1.600
+                        puntos. En el plano cambiario, del dólar libre volvió a subir, se
+                        amplió la brecha y el Banco Central no pudo comprar divisas, pese al
+                        excepcional volumen operado en el mercado mayorista, de casi 400
+                        millones de dólares. El dólar libre volvió a reaccionar al alza por
+                        las restricciones anunciadas por el Banco Central para la operatoria
+                        de “contado con liquidación”: al ser una cotización no intervenida
+                        por organismos oficiales, avanzó a $183 para la venta y amplió a
+                        2,5% o $4,50 la suba desde el viernes, cuando se conocieron las
+                        medidas oficiales.
+                    </p>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Comentarios</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </article>
+                <article class="pt-3">
+                    <h4>Inversiones</h4>
+                    <div>
+                        <img src="https://www.infobae.com/new-resizer/58oBLNRA4J5IRlrrfltXyi8K_-s=/768x512/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/W7AYXCZNVKLKQDABJK7FHIEW3M.jpg"
+                            width="960" height="640" class="article__ecoImg article__ecoImg2" alt="wallstreet" />
                     </div>
                     <time datetime="10/07/2021">Publicado 18/07/2021</time>
                     <p>
@@ -97,7 +129,7 @@
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </article>
             </section>
-            <aside class="col-md-4 hidden-ms hidden-xs">
+            <aside class="col-md-4 hidden-ms hidden-xs pt-3">
                 <div id="cont_8bc8440c26e8c4f64c6f3bf085c6aac7">
                     <script type="text/javascript" async
                         src="https://www.meteored.com.ar/wid_loader/8bc8440c26e8c4f64c6f3bf085c6aac7"></script>
@@ -106,19 +138,31 @@
                 </script>
                 <div id="coinmarketcap-widget-coin-price-block" coins="1" currency="USD" theme="light"
                     transparent="false" show-symbol-logo="true"></div>
-                <p>Envianos tu noticia por cualquiera de nuestros canales</p>
+                    <strong><p class="pt-3">Envianos tu noticia por cualquiera de nuestros canales</p></strong>
                 <ul class="aside__rSociales">
-                    <li>Whatsapp</li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>Skype</li>
-                </ul>
+                    <li><a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" class="aside__imgRs"></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="img/fb.png" class="aside__imgRs2"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="img/ig.png" class="aside__imgRs2"></a></li>
+                    <li><a href="https://www.telegram.org" target="_blank"><img src="img/tlg.png" class="aside__imgRs"></a></li>
+                  </ul>
             </aside>
         </div>
     </div>
-    <footer>
-        <h2>Derechos reservados 2021</h2>
-    </footer>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+5492974252944&text=Hola!%20tenes%20una%20consulta%20o%20queres%20enviarnos%20tu%20noticia?%20Escribinos!"
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <div class="container-fluid pt-3 footer__fondo">
+        <footer>
+            <p style="color: #444; font-size: 14px; margin-bottom: 0;"><strong>© Cescohpaz 2021. Todos los derechos
+                reservados.</strong></p>
+            <p style="color: #444; font-size: 14px; margin: 0;"><strong>Dirección:</strong> Sarmiento 711 - 1er piso dpto 5 -
+              CP: 9000 - Comodoro Rivadavia – Chubut</p>
+            <p style="color: #444; font-size: 14px; margin: 0;"><strong>E-mail:</strong> <a href="https://www.gmail.com"
+                style="color: #444 !important;" target="_blank">pazfrancisco86@gmail.com</a></p>
+          </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>

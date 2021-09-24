@@ -25,6 +25,7 @@
   <meta name="description" content="Este sitio web esta dedicado a noticias nacionales, latinoamerica y al gaming" />
   <meta name="keywords" content="Noticias, politica, economia, gamers, latinoamerica, independiente" />
 </head>
+
 <body class="body__fondo">
   <header>
     <div class="container-fluid header__imagenTop">
@@ -32,7 +33,7 @@
         <div class="row">
           <div class="col-md-12">
             <h1 class="display-4 text-center header__titulo">Politicamente Incorrecto</h1>
-            <p class="display-6 text-end header__titulo2">Tu diario</p>
+            <p class="display-6 text-start header__titulo2">Tu diario</p>
           </div>
         </div>
       </div>
@@ -60,7 +61,7 @@
       </ul>
     </nav>
   </header>
-  <div class="container">
+  <div class="container pt-3">
     <div class="row">
       <section class="col-md-8">
         <h2>Noticias Hoy</h2>
@@ -114,7 +115,7 @@
           </button>
         </div>
       </section>
-      <aside class="col-md-4 hidden-ms hidden-xs">
+      <aside class="col-md-4 hidden-ms hidden-xs pt-3">
         <div id="cont_8bc8440c26e8c4f64c6f3bf085c6aac7">
           <script type="text/javascript" async
             src="https://www.meteored.com.ar/wid_loader/8bc8440c26e8c4f64c6f3bf085c6aac7"></script>
@@ -122,19 +123,30 @@
         <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script>
         <div id="coinmarketcap-widget-coin-price-block" coins="1" currency="USD" theme="light" transparent="false"
           show-symbol-logo="true"></div>
-        <p>Envianos tu noticia por cualquiera de nuestros canales</p>
+        <strong><p class="pt-3">Envianos tu noticia por cualquiera de nuestros canales</p></strong>
         <ul class="aside__rSociales">
-          <li>Whatsapp</li>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Skype</li>
+          <li><a href="https://www.twitter.com" target="_blank"><img src="img/twitter.png" class="aside__imgRs"></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><img src="img/fb.png" class="aside__imgRs2"></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><img src="img/ig.png" class="aside__imgRs2"></a></li>
+          <li><a href="https://www.telegram.org" target="_blank"><img src="img/tlg.png" class="aside__imgRs"></a></li>
         </ul>
       </aside>
     </div>
   </div>
-  <footer>
-    <h2>Derechos reservados 2021</h2>
-  </footer>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=+5492974252944&text=Hola!%20tenes%20una%20consulta%20o%20queres%20enviarnos%20tu%20noticia?%20Escribinos!"
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+  <div class="container-fluid pt-3 footer__fondo">
+    <footer>
+      <p style="color: #444; font-size: 14px; margin-bottom: 0;"><strong>© Cescohpaz 2021. Todos los derechos
+          reservados.</strong></p>
+      <p style="color: #444; font-size: 14px; margin: 0;"><strong>Dirección:</strong> Sarmiento 711 - 1er piso dpto 5 -
+        CP: 9000 - Comodoro Rivadavia – Chubut</p>
+      <p style="color: #444; font-size: 14px; margin: 0;"><strong>E-mail:</strong> <a href="https://www.gmail.com"
+          style="color: #444 !important;" target="_blank">pazfrancisco86@gmail.com</a></p>
+    </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
