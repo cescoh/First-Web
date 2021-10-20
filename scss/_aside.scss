@@ -1,0 +1,26 @@
+.aside__rSociales{
+    list-style-position:outside;
+    list-style-type:none;
+}
+.aside__imgRs{
+    height: 30px;
+    width: 30px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    transition: all 1s;
+}
+.aside__imgRs:hover{
+    height: 35px;
+    width: 35px;
+}
+.aside__imgRs2{
+    height:35px;
+    width:35px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    transition: all 1s;
+}
+.aside__imgRs2:hover{
+    height: 40px;
+    width: 40px;
+}

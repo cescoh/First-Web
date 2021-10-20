@@ -1,25 +1,68 @@
-.btn-whatsapp {
-  background-color: #55acee; }
+* {
+  font-size: 12px;
+  text-align: center; }
 
-.btn-facebook {
-  background-color: #3a5795; }
+h1 {
+  font-size: 20px; }
 
-.btn-instagram {
-  background-color: #c25e30; }
+h2 {
+  font-size: 11px;
+  font-family: 'Abril Fatface', cursive; }
 
-.btn-skype {
-  background-color: red; }
+h4 {
+  font-size: 11px;
+  font-family: 'Abril Fatface', cursive; }
 
-.redsocial, .redsocial--nueva {
-  border: 1px #f00;
-  background-color: #fdd; }
+.article__ecoImg {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; }
 
-.redsocial--nueva {
-  border-width: 3px; }
+.article__ecoImg2 {
+  width: 100%;
+  height: auto; }
 
-.box {
-  width: auto;
-  height: auto;
-  font-size: 22px;
-  color: green;
-  background-color: brown; }
+.aside__rSociales {
+  list-style-position: outside;
+  list-style-type: none; }
+
+.aside__imgRs {
+  height: 30px;
+  width: 30px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  transition: all 1s; }
+
+.aside__imgRs:hover {
+  height: 35px;
+  width: 35px; }
+
+.aside__imgRs2 {
+  height: 35px;
+  width: 35px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  transition: all 1s; }
+
+.aside__imgRs2:hover {
+  height: 40px;
+  width: 40px; }
+
+.footer__fondo {
+  background: #dadada;
+  background-image: linear-gradient(#dadada, white);
+  height: 100px; }
+
+.header__fondoNav {
+  background: #a1cdfb;
+  background-image: linear-gradient(#a1cdfb, white); }
+
+.header__titulo {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  -webkit-text-stroke: 1px black; }
+
+.header__titulo2 {
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  /*-webkit-text-stroke: 1px;*/ }
